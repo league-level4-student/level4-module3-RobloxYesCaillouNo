@@ -40,7 +40,7 @@ class ExceptionsTest {
 	} catch (IllegalArgumentException e) {
 		// TODO: handle exception
 		e.printStackTrace();
-		//assertEquals(new IllegalArgumentException(), em.divide(0.0, 5.0));
+		
 	}
 	}
 	
@@ -57,7 +57,7 @@ class ExceptionsTest {
 		} catch (IllegalStateException e) {
 			// TODO: handle exception
 			e.printStackTrace();
-			//assertEquals(new IllegalStateException(), em.reverseString(""));
+			
 		}
 		
 		
