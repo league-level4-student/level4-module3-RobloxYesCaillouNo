@@ -33,13 +33,14 @@ class ExceptionsTest {
 	@Test
 	public void testDivideByZeroException() {
 	try {
+
 		assertEquals(new IllegalArgumentException(), em.divide(0.0, 5.0));
 	
 	fail("IllegalArgumentException not thrown :P");
 	} catch (IllegalArgumentException e) {
 		// TODO: handle exception
 		e.printStackTrace();
-		assertEquals(new IllegalArgumentException(), em.divide(0.0, 5.0));
+		//assertEquals(new IllegalArgumentException(), em.divide(0.0, 5.0));
 	}
 	}
 	
@@ -56,7 +57,7 @@ class ExceptionsTest {
 		} catch (IllegalStateException e) {
 			// TODO: handle exception
 			e.printStackTrace();
-			assertEquals(new IllegalStateException(), em.reverseString(""));
+			//assertEquals(new IllegalStateException(), em.reverseString(""));
 		}
 		
 		
